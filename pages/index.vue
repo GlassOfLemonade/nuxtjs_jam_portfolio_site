@@ -1,36 +1,16 @@
 <template>
   <div class="container">
-    <div id="nav">
-      <Logo />
-      <h1 class="title">
-        Aegis Stories
-      </h1>
-      <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--green"
-        >
-          Documentation
-        </a>
-        <a
-          href="https://github.com/nuxt/nuxt.js"
-          target="_blank"
-          rel="noopener noreferrer"
-          class="button--grey"
-        >
-          GitHub
-        </a>
-      </div>
+    <div>
+      <hero />
     </div>
   </div>
 </template>
 
 <script>
+import hero from '~/components/hero.vue'
 export default {
-  head: {
-    title: 'Aegis Stories',
+  components: {
+    hero,
   },
 }
 </script>
