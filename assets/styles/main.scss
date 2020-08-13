@@ -1,0 +1,19 @@
+@import "~bulma/sass/utilities/_all.sass";
+
+/* theme testing below */
+// brand colors
+$darker-blue: #00264d;
+$dark-blue: #003366;
+$grey-lighter: hsl(0, 0%, 86%);
+$grey-lightest:  hsl(0, 0%, 93%);
+
+// global variables
+$family-sans-serif: "Roboto", sans-serif;
+$text: $grey-lighter;
+
+// component variables
+$navbar-background-color: $darker-blue;
+$footer-background-color: $darker-blue;
+$body-background-color: $dark-blue;
+
+@import "~bulma/bulma";

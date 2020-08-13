@@ -1,6 +1,6 @@
 # aegisstories_jam
 ## Introduction
-
+My personal site built with Nuxt.js and Bulma, host pending
 
 ## Build Setup
 

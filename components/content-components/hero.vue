@@ -1,5 +1,5 @@
 <template>
-  <section class="hero">
+  <section class="hero is-large">
     <div class="hero-body">
       <div class="container">
         <h1 class="title">Kevin Tian</h1>
@@ -11,4 +11,4 @@
 <script>
 export default {}
 </script>
-<style lang="sass" scoped></style>
+<style lang="scss"></style>
