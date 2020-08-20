@@ -1,4 +1,4 @@
-# aegisstories_jam
+# Aegis Stories Jam Stack
 ## Introduction
 My personal site built with Nuxt.js and Bulma, host pending
 
