@@ -1,15 +1,23 @@
 // global variables
-$family-sans-serif: "Roboto", sans-serif;
+$family-primary: "JetBrains Mono", sans-serif;
 
 // theming variables
-$primary: $prussian-blue;
+$secondary: $gdx-rhino;
 $info: $cerulean;
 $success: $pelorus;
+$link: $gdx-mountain-meadow;
+$link-hover: $gdx-pastel-green;
 
-$title-color: $mischka;
-$subtitle-color: $solitude;
+$title-color: $gdx-solitude;
+$subtitle-color: $gdx-ghost;
 
 // component variables
-$navbar-background-color: $paua;
-$footer-background-color: $paua;
-$body-background-color: $paua;
+// background
+$navbar-background-color: $gdx-regal-blue;
+$footer-background-color: $gdx-regal-blue;
+$body-background-color: $gdx-regal-blue;
+
+// navbar
+$navbar-item-color: $gdx-mountain-meadow;
+$navbar-item-hover-color: $gdx-pastel-green;
+$navbar-item-hover-background-color: $navbar-background-color;

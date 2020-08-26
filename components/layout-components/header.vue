@@ -29,13 +29,13 @@
 
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-end">
-          <a class="navbar-item">About Me</a>
+          <a href="#section-about" class="navbar-item">About Me</a>
 
-          <a class="navbar-item">Experience</a>
+          <a href="#" class="navbar-item">Experience</a>
 
-          <a class="navbar-item">Projects</a>
+          <a href="#" class="navbar-item">Projects</a>
 
-          <a class="navbar-item">Contact Me</a>
+          <a href="#" class="navbar-item">Contact Me</a>
         </div>
       </div>
     </nav>
@@ -46,4 +46,15 @@
 export default {}
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+nav {
+  padding: 0 1rem;
+}
+
+a.navbar-item {
+  &:hover {
+    @include standard-transition;
+    box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+  }
+}
+</style>

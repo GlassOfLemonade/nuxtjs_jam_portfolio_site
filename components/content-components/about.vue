@@ -1,9 +1,9 @@
 <template>
-  <section class="section">
+  <section id="about" class="section">
     <div class="container">
       <div class="tile is-ancestor">
         <div class="tile is-parent is-vertical is-8">
-          <div class="tile is-child notification is-primary">
+          <div class="tile is-child box is-primary">
             <div class="content">
               <h1 class="section-title">Loren Ipsum</h1>
               <p>
@@ -17,7 +17,7 @@
               </p>
             </div>
           </div>
-          <div class="tile is-child notification is-primary">
+          <div class="tile is-child box is-primary">
             <div class="content">
               <h3 class="section-subtitle">Lorem Ipsum</h3>
               <ul>
@@ -30,7 +30,7 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child notification is-primary"></div>
+          <div class="tile is-child is-primary"></div>
         </div>
       </div>
     </div>
@@ -39,17 +39,4 @@
 <script>
 export default {}
 </script>
-<style lang="scss">
-h1.section-title {
-  color: $solitude;
-}
-h3.section-subtitle {
-  color: $mischka;
-}
-p {
-  color: $mischka;
-}
-li {
-  color: $storm-grey;
-}
-</style>
+<style lang="scss"></style>

@@ -2,6 +2,26 @@
 @import "_font";
 @import "_theme";
 @import "_variables";
+@import "_mixins";
+
+#app {
+    .box {
+        background: $secondary;
+    }
+    h1 {
+        color: $title-color;
+    }
+    h2, h3, p, li {
+        color: $subtitle-color;
+    }
+    a {
+        color: $link;
+        &:hover {
+            @include standard-transition;
+            color: $link-hover;
+        }
+    }
+}
 
 
 @import "~bulma/bulma";
