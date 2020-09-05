@@ -31,7 +31,7 @@
         <div class="navbar-end">
           <a href="#section-about" class="navbar-item">About Me</a>
 
-          <a href="#" class="navbar-item">Experience</a>
+          <a href="#section-work" class="navbar-item">Experience</a>
 
           <a href="#" class="navbar-item">Projects</a>
 
@@ -52,9 +52,10 @@ nav {
 }
 
 a.navbar-item {
+  @include standard-transition;
   &:hover {
-    @include standard-transition;
     box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+    border-radius: 0.35rem;
   }
 }
 </style>

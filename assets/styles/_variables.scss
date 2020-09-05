@@ -2,22 +2,35 @@
 $family-primary: "JetBrains Mono", sans-serif;
 
 // theming variables
+$primary: $gdx-regal-blue;
+$primary-dark: $gdx-prussian-blue;
+$primary-light: $gdx-kashmir-blue;
 $secondary: $gdx-rhino;
-$info: $cerulean;
+$secondary-dark: $gdx-midnight-express;
+$secondary-light: $gdx-storm-grey;
+$info: $endeavour;
+$info-dark: $prussian-blue;
+$info-light: $shakespeare;
 $success: $pelorus;
+$success-dark: $cerulean;
+$success-light: $maya-blue;
 $link: $gdx-mountain-meadow;
-$link-hover: $gdx-pastel-green;
+$link-light: $gdx-pastel-green;
+$warning: $gdx-persian-red;
+$warning-dark: $gdx-sangria;
+$warning-light: $gdx-bittersweet;
 
 $title-color: $gdx-solitude;
 $subtitle-color: $gdx-ghost;
 
 // component variables
 // background
-$navbar-background-color: $gdx-regal-blue;
-$footer-background-color: $gdx-regal-blue;
-$body-background-color: $gdx-regal-blue;
+$navbar-background-color: $primary;
+$footer-background-color: $primary;
+$body-background-color: $primary;
 
 // navbar
 $navbar-item-color: $gdx-mountain-meadow;
-$navbar-item-hover-color: $gdx-pastel-green;
+$navbar-item-hover-color: $link-light;
 $navbar-item-hover-background-color: $navbar-background-color;
+$navbar-height: 3.25rem;

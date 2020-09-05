@@ -11,4 +11,8 @@
 <script>
 export default {}
 </script>
-<style lang="scss"></style>
+<style lang="scss">
+section.hero {
+  padding-top: $navbar-height; // match header height
+}
+</style>
