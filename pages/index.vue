@@ -1,25 +1,17 @@
 <template>
   <div class="container">
     <div>
-      <hero />
-      <about />
-      <work />
+      <Hero />
+      <About />
+      <Work />
+      <Projects />
+      <Contact />
     </div>
   </div>
 </template>
 
 <script>
-import hero from '~/components/content-components/hero'
-import about from '~/components/content-components/about'
-import work from '~/components/content-components/work'
-
-export default {
-  components: {
-    hero,
-    about,
-    work,
-  },
-}
+export default {}
 </script>
 
 <style lang="scss" scoped>

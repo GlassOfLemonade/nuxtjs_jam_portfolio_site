@@ -52,7 +52,7 @@ nav {
 }
 
 a.navbar-item {
-  @include standard-transition;
+  @include tile-transition;
   &:hover {
     box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
     border-radius: 0.35rem;

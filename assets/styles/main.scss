@@ -7,22 +7,22 @@
 #app {
     .box {
         background: $secondary-dark;
-        @include standard-transition;
+        @include tile-transition;
         &:hover, :focus {
             background: $primary-dark;
-            transform: translate(-0.15rem, -0.2rem);
+            transform: translate(-0.15rem, -0.15rem);
         }
         
     }
     h1 {
         color: $title-color;
     }
-    h2, h3, p, li {
+    h2, h3, p, li, span {
         color: $subtitle-color;
     }
     a {
         color: $link;
-        @include standard-transition;
+        @include tile-transition;
         &:hover {
             color: $link-light;
         }

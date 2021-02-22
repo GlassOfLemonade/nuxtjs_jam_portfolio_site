@@ -5,7 +5,7 @@
         <div class="tile is-parent is-vertical is-8">
           <div class="tile is-child box is-primary">
             <div class="content">
-              <h1 class="section-title">Loren Ipsum</h1>
+              <h1 class="section-title">About Me</h1>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
                 eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -19,7 +19,7 @@
           </div>
           <div class="tile is-child box is-primary">
             <div class="content">
-              <h3 class="section-subtitle">Lorem Ipsum</h3>
+              <h3 class="section-subtitle">Software Technologies I've Used</h3>
               <ul>
                 <li>Lorem ipsum dolor sit.</li>
                 <li>Lorem ipsum dolor sit.</li>
@@ -30,7 +30,15 @@
           </div>
         </div>
         <div class="tile is-parent">
-          <div class="tile is-child is-primary"></div>
+          <div class="tile is-child box is-primary">
+            <figure class="image">
+              <img
+                class="is-rounded"
+                src="https://bulma.io/images/placeholders/480x480.png"
+                alt="my picture"
+              />
+            </figure>
+          </div>
         </div>
       </div>
     </div>
