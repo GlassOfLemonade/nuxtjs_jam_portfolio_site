@@ -1,6 +1,6 @@
-# Aegis Stories Jam Stack
+# NuxtJS Jam Stack Style Portfolio Site
 ## Introduction
-My personal site built with Nuxt.js and Bulma, host pending
+A basic skeleton of personal site built with Nuxt.js and Bulma.
 
 ## Build Setup
 
