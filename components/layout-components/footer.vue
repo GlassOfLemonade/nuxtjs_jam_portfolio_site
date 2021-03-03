@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <div class="content has-text-centered">
+    <!-- <div class="content has-text-centered">
       <p>
         Powered by
       </p>
@@ -49,7 +49,7 @@
           </figure>
         </div>
       </div>
-    </div>
+    </div> -->
   </footer>
 </template>
 

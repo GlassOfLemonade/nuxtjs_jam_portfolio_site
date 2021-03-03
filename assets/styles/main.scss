@@ -27,6 +27,35 @@
             color: $link-light;
         }
     }
+    section {
+        .section-title {
+            display:flex;
+            position: relative;
+            -webkit-box-align: center;
+            align-items: center;
+        }
+        .section-title::after {
+            content: "";
+            display: block;
+            position: relative;
+            width: 300px;
+            height: 1px;
+            margin-left: 20px;
+            background: $link;
+        }
+        &:hover {
+            .section-title::after {
+                background: $link-light;
+            }
+        }
+        // need to revisit the below, since the sticky titles need to stack on each other, i'll need to use javascript to determine height/offset
+        // @media screen and (max-width: 768px) {
+        //     .section-title {
+        //         position: sticky;
+        //     }
+        // }
+    }
+    
 }
 
 
