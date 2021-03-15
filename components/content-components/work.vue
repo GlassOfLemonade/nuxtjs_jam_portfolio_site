@@ -31,26 +31,50 @@
               <div class="content">
                 <div class="headings">
                   <h2>
-                    Position at
+                    Web Developer at
                     <a
-                      href="https://www.google.com/"
+                      href="https://www.causeforce.com/"
                       rel="noopener"
                       target="_blank"
                     >
-                      Company
+                      CauseForce
                     </a>
                   </h2>
                 </div>
                 <div class="body">
-                  <span class="section-subtitle">Date - Date</span>
+                  <span class="section-subtitle">Aug 2019 - Dec 2020</span>
                   <ul>
                     <li>
-                      Nam eget ligula tincidunt, aliquam felis molestie,
-                      pharetra lacus.
+                      Built websites and developed web content to client
+                      specifications on Luminate Online and Rallybound.
+                      Developed documentation and testing methodology to ensure
+                      cross-browser compatibility and responsiveness.
                     </li>
-                    <li>Praesent scelerisque orci eu tristique tristique.</li>
-                    <li>Maecenas tempus ipsum ac dignissim faucibus.</li>
-                    <li>Sed ultricies diam a enim interdum pharetra.</li>
+                    <li>
+                      Leveraged third party and platform APIs to develop web
+                      applications with interactive and personalized content.
+                    </li>
+                    <li>
+                      Led project to rebrand, modernize, and rebuild our
+                      corporate website, utilizing modern frameworks such as
+                      VueJS and Tailwind CSS.
+                    </li>
+                    <li>
+                      Maintained, refactored, and updated code as necessary to
+                      keep apps connected through APIs running and error-free,
+                      with such projects utilizing a variety of languages,
+                      frameworks, and platforms, such as Typescript, AngularJS,
+                      Heroku, and AWS.
+                    </li>
+                    <li>
+                      Worked and communicated with multi-disciplinary teams with
+                      modern project management standards (Agile/Scrum-like),
+                      with our tool of choice Asana.
+                    </li>
+                    <li>
+                      Wrote, maintained, and updated technical documentation
+                      (wiki-style) on projects of non-trivial complexity.
+                    </li>
                   </ul>
                 </div>
               </div>
@@ -63,38 +87,42 @@
               <div class="content">
                 <div class="headings">
                   <h2>
-                    Position at
+                    IT Manager &amp; Analyst at
                     <a
-                      href="https://www.google.com/"
+                      href="https://hallmarkfloors.com/"
                       rel="noopener"
                       target="_blank"
                     >
-                      Company
+                      Hallmark Floors
                     </a>
                   </h2>
                 </div>
                 <div class="body">
-                  <span class="section-subtitle">Date - Date</span>
+                  <span class="section-subtitle">Oct 2014 - Aug 2019</span>
                   <ul>
                     <li>
-                      Aliquam semper urna mauris, non pellentesque leo ornare
-                      at. Lorem ipsum dolor sit amet, consectetur adipiscing
-                      elit. Aliquam sit amet egestas metus, vel sodales odio.
-                      Vestibulum augue ante, euismod vel feugiat sit amet,
-                      venenatis suscipit lorem. Etiam vitae ultricies massa, sed
-                      pulvinar sem.
+                      Led project to migrate the firm’s operations from
+                      QuickBooks to NetSuite in order to meet growing demands
+                      for operational efficiency and inventory tracking.
+                      Administrated NetSuite thereafter on a variety of tasks
+                      including: General user administration, setting up reports
+                      and dashboards, and developing UI customizations and
+                      custom data solutions through the use of Javascript and
+                      NetSuite’s API.
                     </li>
                     <li>
-                      Phasellus bibendum tempor neque sit amet tincidunt. Ut
-                      cursus, risus vel consectetur ultricies, dui orci
-                      tincidunt nibh, et rutrum mauris tortor pellentesque
-                      ligula. Aenean eget purus posuere nisi porta ultrices eget
-                      ut orci. In hac habitasse platea dictumst.
+                      Windows Server 2012 basic administration regarding active
+                      directory and network drives, worked with and managed
+                      contracts with external IT services where needed.
                     </li>
                     <li>
-                      Suspendisse tincidunt et ligula a feugiat. Aliquam erat
-                      volutpat. Nulla facilisi. Nam tempor posuere massa, sed
-                      feugiat justo consequat vel.
+                      Microsoft Excel reporting (Pivot Tables, VBA development
+                      for automated data querying and sorting, data
+                      visualization)
+                    </li>
+                    <li>
+                      Managed Wordpress website and supported projects on
+                      managed server hosting (cPanel).
                     </li>
                   </ul>
                 </div>

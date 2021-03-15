@@ -14,14 +14,16 @@ export default {
    ** See https://nuxtjs.org/api/configuration-head
    */
   head: {
-    title: process.env.npm_package_name || 'Aegis Stories',
+    title: process.env.npm_package_name || 'Kevin Tian',
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
       {
         hid: 'description',
         name: 'description',
-        content: process.env.npm_package_description || 'personal website',
+        content:
+          process.env.npm_package_description ||
+          "Kevin Tian's personal website",
       },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],

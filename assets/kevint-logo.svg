@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="114 129 192 177" xmlns="http://www.w3.org/2000/svg">
+  <polygon style="fill: none; stroke: rgb(21, 168, 99); stroke-width: 10px;" points="120 134 300 134 280 255 210 300 140 255">
+    <title>my logo</title>
+  </polygon>
+  <path d="M 190.48 200 L 181.93 188.78 L 178.98 191.85 L 178.98 200 L 175.8 200 L 175.8 175.88 L 178.98 175.88 L 178.98 187.81 L 189.7 175.88 L 193.54 175.88 L 184.05 186.53 L 194.29 200 L 190.48 200 ZM 218.742 175.88 L 218.742 178.49 L 210.982 178.49 L 210.982 200 L 207.822 200 L 207.822 178.49 L 200.082 178.49 L 200.082 175.88 L 218.742 175.88 Z" transform="matrix(2.127536, 0, 0, 2.063001, -208.74678, -184.021332)" style="line-height: 54.2898px; white-space: pre; paint-order: fill; stroke: rgb(21, 168, 99); fill: rgb(21, 168, 99); stroke-width: 2.86359px;"/>
+</svg>

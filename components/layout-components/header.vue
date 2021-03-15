@@ -6,12 +6,14 @@
       aria-label="main navigation"
     >
       <div class="navbar-brand">
-        <a class="navbar-item" href="/">
-          <img
-            src="https://bulma.io/images/bulma-logo.png"
-            width="112"
-            height="28"
-          />
+        <a class="navbar-item logo" href="/">
+          <object
+            id="site-logo"
+            data="~assets/kevint-logo.svg"
+            type="image/svg+xml"
+          >
+            <img src="~assets/kevint-logo.svg" />
+          </object>
         </a>
 
         <a
@@ -48,7 +50,7 @@ export default {}
 
 <style lang="scss" scoped>
 nav {
-  padding: 0.5rem 1rem;
+  padding: 1rem 1.5rem;
 }
 
 .navbar-end {
@@ -61,5 +63,16 @@ nav {
       box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
     }
   }
+}
+
+#site-logo {
+  width: 3.5rem;
+  img {
+    max-height: 3.5rem;
+  }
+}
+
+.logo {
+  padding: 0 !important;
 }
 </style>

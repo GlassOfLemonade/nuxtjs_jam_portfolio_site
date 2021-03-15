@@ -3,27 +3,40 @@
     <div class="content"><h1 class="section-title">About Me</h1></div>
     <div class="container">
       <div class="columns">
-        <div class="column is-two-thirds">
+        <div class="column">
           <div class="content">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum.
+              I'm Kevin Tian, a front-end engineer based in Los Angeles, CA.
             </p>
-            <p>Software technologies I've used:</p>
+            <p>
+              I'm a mostly self taught software developer, and like to challenge
+              myself to new experiences by participating in hackathons and game
+              jams.
+            </p>
+            <p>
+              On a professional level I create connected applications and
+              experiences on the web. With my most recent position at
+              CauseForce, which also happens to be my first professional
+              experience in software, I was given an introduction into the world
+              of web engineering and took opportunities where I could to tackle
+              new problems, work with new technologies, and create connected and
+              personal web applications.
+            </p>
+            <p>Web technologies I've used:</p>
             <ul>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
-              <li>Lorem ipsum dolor sit.</li>
+              <li>
+                Core web programming languages: HTML, (S)CSS, Javascript
+                ES6+/TypeScript
+              </li>
+              <li>Javascript frameworks: Vue.js, Angular</li>
+              <li>Server-side: Node.js, Express, C#</li>
+              <li>CSS frameworks: Tailwind, Bulma</li>
+              <li>Platforms: Heroku, Netlify</li>
+              <li>WordPress</li>
             </ul>
           </div>
         </div>
-        <div class="column">
+        <!-- <div class="column">
           <figure class="image">
             <img
               class="is-rounded"
@@ -31,7 +44,7 @@
               alt="my picture"
             />
           </figure>
-        </div>
+        </div> -->
       </div>
     </div>
   </section>

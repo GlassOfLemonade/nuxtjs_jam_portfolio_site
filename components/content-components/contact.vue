@@ -10,7 +10,7 @@
         <div class="column">
           <figure class="image">
             <a
-              href="https://github.com/"
+              href="https://github.com/GlassOfLemonade"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -24,7 +24,7 @@
         <div class="column">
           <figure class="image">
             <a
-              href="https://www.linkedin.com"
+              href="https://www.linkedin.com/in/kevin-tian-985bb29b"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -37,11 +37,7 @@
         </div>
         <div class="column">
           <figure class="image">
-            <a
-              href="https://nuxtjs.org/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
+            <a href="mailto:ktian0257@gmail.com">
               <font-awesome-icon
                 :icon="['fas', 'envelope-square']"
                 style="font-size: 2em;"
