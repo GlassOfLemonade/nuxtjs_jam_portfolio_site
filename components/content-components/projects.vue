@@ -64,7 +64,7 @@
               <ul>
                 <li>Node.js</li>
                 <li>Express</li>
-                <li>OAuth</li>
+                <li>PostgreSQL DB</li>
               </ul>
             </div>
           </article>
