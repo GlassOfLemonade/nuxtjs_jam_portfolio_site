@@ -20,7 +20,7 @@
               experience in software, I was given an introduction into the world
               of web engineering and took opportunities where I could to tackle
               new problems, work with new technologies, and create connected and
-              personal web applications.
+              personalized web applications.
             </p>
             <p>Web technologies I've used:</p>
             <ul>
@@ -28,7 +28,7 @@
                 Core web programming languages: HTML, (S)CSS, Javascript
                 ES6+/TypeScript
               </li>
-              <li>Javascript frameworks: Vue.js, Angular</li>
+              <li>Javascript frameworks: Vue.js, Angular, React</li>
               <li>Server-side: Node.js, Express, C#</li>
               <li>CSS frameworks: Tailwind, Bulma</li>
               <li>Platforms: Heroku, Netlify</li>
