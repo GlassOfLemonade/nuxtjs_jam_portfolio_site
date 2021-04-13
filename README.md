@@ -3,10 +3,10 @@
 My personal portfolio site, built with Vue.js (Nuxt.js) and Bulma, hosted on Netlify.
 
 ## Progress of project
-Basic skeleton with HTML content finished
+Basic skeleton with HTML content finished.
+Mobile Friendly nav menu finished.
 
 ## Planned changes
-- Mobile friendly header/menu/nav.
 - UX features like smooth scrolling, hover/focus effects, and more color and pop.
 - content architecture, explore Nuxt Content to have CMS-like function.
 
