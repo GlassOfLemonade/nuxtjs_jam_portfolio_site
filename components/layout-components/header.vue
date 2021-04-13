@@ -79,7 +79,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-@keyframes menuAnim {
+@include keyframe(menuAnim) {
   0% {
     opacity: 0;
     transform: rotateX(-90deg);
@@ -135,7 +135,14 @@ nav {
         }
         @for $num from 1 through 4 {
           a.navbar-item-#{$num} {
-            animation: menuAnim 300ms ($num * 60ms) ease-in-out forwards;
+            // animation: menuAnim 300ms ($num * 60ms) ease-in-out forwards;
+            @include animation(
+              menuAnim,
+              300ms,
+              ($num * 60ms),
+              ease-in-out,
+              forwards
+            );
             transform-origin: top center;
           }
         }
