@@ -18,7 +18,7 @@
 
         <a
           role="button"
-          class="navbar-burger burger"
+          class="navbar-burger"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbar"
@@ -45,34 +45,59 @@
 </template>
 
 <script>
-export default {}
+export default {
+  mounted() {
+    this.burgerEventHandler()
+  },
+  methods: {
+    burgerEventHandler() {
+      const _burgerMenus = Array.prototype.slice.call(
+        document.querySelectorAll('.navbar-burger')
+      )
+      if (_burgerMenus.length > 0) {
+        _burgerMenus.forEach((element) => {
+          element.addEventListener('click', () => {
+            const target = element.dataset.target
+            const _target = document.getElementById(target)
+
+            element.classList.toggle('is-active')
+            _target.classList.toggle('is-active')
+          })
+        })
+      }
+    },
+  },
+}
 </script>
 
 <style lang="scss" scoped>
 nav {
   padding: 1rem 1.5rem;
-}
-
-.navbar-end {
-  a.navbar-item {
-    border-radius: 0.35rem;
-    background: $primary-dark;
-    margin: 0.5rem;
-    @include tile-transition;
-    &:hover {
-      box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+  .logo {
+    padding: 0 !important;
+    #site-logo {
+      width: 3.5rem;
+      img {
+        max-height: 3.5rem;
+      }
     }
   }
-}
-
-#site-logo {
-  width: 3.5rem;
-  img {
-    max-height: 3.5rem;
+  .navbar-burger {
+    > span:first-child,
+    > span:last-child {
+      transition: 0.3s;
+    }
   }
-}
-
-.logo {
-  padding: 0 !important;
+  .navbar-end {
+    a.navbar-item {
+      border-radius: 0.35rem;
+      background: $primary-dark;
+      margin: 0.5rem;
+      @include tile-transition;
+      &:hover {
+        box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+      }
+    }
+  }
 }
 </style>
