@@ -282,8 +282,20 @@ export default {}
 </script>
 
 <style lang="scss" scoped>
-figure.image {
-  padding-bottom: 0.5rem;
+article.tile.box {
+  div.container {
+    display: flex;
+    padding-bottom: 0.5rem;
+    figure.image {
+      padding: 0 4px;
+      &:first-child {
+        padding-left: 0;
+      }
+      &:last-child {
+        padding-right: 0;
+      }
+    }
+  }
 }
 
 div.content ul {

@@ -61,6 +61,7 @@ export default {}
 
 .columns {
   justify-content: center;
+  display: flex;
 }
 
 .column {
