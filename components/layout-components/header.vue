@@ -31,13 +31,21 @@
 
       <div id="navbar" class="navbar-menu">
         <div class="navbar-end">
-          <a href="#section-about" class="navbar-item">About Me</a>
+          <a href="#section-about" class="navbar-item navbar-item-1">
+            About Me
+          </a>
 
-          <a href="#section-work" class="navbar-item">Experience</a>
+          <a href="#section-work" class="navbar-item navbar-item-2">
+            Experience
+          </a>
 
-          <a href="#section-projects" class="navbar-item">Projects</a>
+          <a href="#section-projects" class="navbar-item navbar-item-3">
+            Projects
+          </a>
 
-          <a href="#section-contact" class="navbar-item">Contact Me</a>
+          <a href="#section-contact" class="navbar-item navbar-item-4">
+            Contact Me
+          </a>
         </div>
       </div>
     </nav>
@@ -71,6 +79,20 @@ export default {
 </script>
 
 <style lang="scss" scoped>
+@keyframes menuAnim {
+  0% {
+    opacity: 0;
+    transform: rotateX(-90deg);
+  }
+  50% {
+    transform: rotateX(-20deg);
+  }
+  100% {
+    opacity: 1;
+    transform: rotateX(0deg);
+  }
+}
+
 nav {
   padding: 1rem 1.5rem;
   .logo {
@@ -88,14 +110,35 @@ nav {
       transition: 0.3s;
     }
   }
-  .navbar-end {
-    a.navbar-item {
-      border-radius: 0.35rem;
-      background: $primary-dark;
-      margin: 0.5rem;
-      @include tile-transition;
-      &:hover {
-        box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+  div.navbar-menu {
+    .navbar-end {
+      a.navbar-item {
+        border-radius: 0.35rem;
+        background: $primary-dark;
+        margin: 0.5rem;
+        @include tile-transition;
+        &:hover {
+          box-shadow: 0rem 0.25em 1.5rem -0.25rem rgba(10, 10, 10, 0.3);
+        }
+        @media screen and (max-width: 1023px) {
+          display: none;
+          opacity: 0;
+        }
+      }
+    }
+    &.is-active {
+      > .navbar-end {
+        > a.navbar-item {
+          @media screen and (max-width: 1023px) {
+            display: block;
+          }
+        }
+        @for $num from 1 through 4 {
+          a.navbar-item-#{$num} {
+            animation: menuAnim 300ms ($num * 60ms) ease-in-out forwards;
+            transform-origin: top center;
+          }
+        }
       }
     }
   }
