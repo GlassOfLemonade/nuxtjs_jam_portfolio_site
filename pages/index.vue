@@ -1,7 +1,7 @@
 <template>
   <div class="container">
     <div>
-      <Hero />
+      <Hero :content="hero" />
       <About />
       <Work />
       <Projects />
@@ -11,7 +11,15 @@
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content }) {
+    const hero = await $content('hero').fetch()
+
+    return {
+      hero,
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped>

@@ -3,6 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
+  ssr: 'false',
   mode: 'spa',
   /*
    ** Nuxt target
@@ -66,6 +67,7 @@ export default {
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxt/content',
     [
       'nuxt-fontawesome',
       {
@@ -82,6 +84,10 @@ export default {
       },
     ],
   ],
+  /**
+   * Nuxt content options
+   */
+  content: [],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
