@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'spa',
+  ssr: false,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -41,7 +41,11 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: [
+    {
+      path: '~/components/content-components',
+    },
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -98,6 +102,9 @@ export default {
           customProperties: false,
         },
       },
+    },
+    babel: {
+      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
   },
 }
