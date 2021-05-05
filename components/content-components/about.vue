@@ -16,10 +16,9 @@
             <p>
               On a professional level I create connected applications and
               experiences on the web. With my most recent position at
-              CauseForce, which also happens to be my first professional
-              experience in software, I was given an introduction into the world
-              of web engineering and took opportunities where I could to tackle
-              new problems, work with new technologies, and create connected and
+              CauseForce, I was given an introduction into the world of web
+              engineering and took opportunities where I could to tackle new
+              problems, work with new technologies, and create connected and
               personalized web applications.
             </p>
             <p>Web technologies I've used:</p>

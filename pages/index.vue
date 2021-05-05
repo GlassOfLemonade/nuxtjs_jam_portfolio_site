@@ -4,7 +4,7 @@
       <Hero :content="contentHero" />
       <About :content="contentAbout" />
       <Work />
-      <Projects />
+      <Projects :content="projectList" />
       <Contact />
     </div>
   </div>
@@ -17,9 +17,25 @@ export default {
     const contentHero = sectionContent.find((el) => el.title === 'Hero')
     const contentAbout = sectionContent.find((el) => el.title === 'About')
 
+    const projectList = await $content('projects')
+      .where({ priority: { $lt: 8 } })
+      .fetch()
+      .then((result) =>
+        result.sort((a, b) => {
+          return a.priority - b.priority
+        })
+      )
+    const projectArchive = await $content('projects')
+      .where({
+        priority: { $gte: 8 },
+      })
+      .fetch()
+
     return {
       contentHero,
       contentAbout,
+      projectList,
+      projectArchive,
     }
   },
 }
