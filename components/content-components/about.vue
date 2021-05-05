@@ -23,17 +23,7 @@
               personalized web applications.
             </p>
             <p>Web technologies I've used:</p>
-            <ul>
-              <li>
-                Core web programming languages: HTML, (S)CSS, Javascript
-                ES6+/TypeScript
-              </li>
-              <li>Javascript frameworks: Vue.js, Angular, React</li>
-              <li>Server-side: Node.js, Express, C#</li>
-              <li>CSS frameworks: Tailwind, Bulma</li>
-              <li>Platforms: Heroku, Netlify</li>
-              <li>WordPress</li>
-            </ul>
+            <nuxt-content :document="content" />
           </div>
         </div>
         <!-- <div class="column">
@@ -50,6 +40,13 @@
   </section>
 </template>
 <script>
-export default {}
+export default {
+  props: {
+    content: {
+      type: Object,
+      default: () => {},
+    },
+  },
+}
 </script>
 <style lang="scss"></style>

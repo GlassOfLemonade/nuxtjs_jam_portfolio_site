@@ -1,8 +1,8 @@
 <template>
   <div class="container">
     <div>
-      <Hero />
-      <About />
+      <Hero :content="contentHero" />
+      <About :content="contentAbout" />
       <Work />
       <Projects />
       <Contact />
@@ -11,7 +11,18 @@
 </template>
 
 <script>
-export default {}
+export default {
+  async asyncData({ $content }) {
+    const sectionContent = await $content('sections').fetch()
+    const contentHero = sectionContent.find((el) => el.title === 'Hero')
+    const contentAbout = sectionContent.find((el) => el.title === 'About')
+
+    return {
+      contentHero,
+      contentAbout,
+    }
+  },
+}
 </script>
 
 <style lang="scss" scoped>
