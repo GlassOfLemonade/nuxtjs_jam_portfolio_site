@@ -3,7 +3,7 @@
     <div class="content"><h1 class="section-title">About Me</h1></div>
     <div class="container">
       <div class="columns">
-        <div class="column">
+        <div class="column is-two-thirds">
           <div class="content">
             <p>
               I'm Kevin Tian, a front-end engineer based in Los Angeles, CA.
@@ -36,15 +36,32 @@
             </ul>
           </div>
         </div>
-        <!-- <div class="column">
+        <div class="column">
           <figure class="image">
-            <img
-              class="is-rounded"
-              src="https://bulma.io/images/placeholders/256x256.png"
-              alt="my picture"
-            />
+            <picture>
+              <source
+                size="(max-width: 768px) 256px, 
+                    350px"
+                srcset="
+                  /kevin_tian_picture-512w.webp   512w,
+                  /kevin_tian_picture-1024w.webp 1024w
+                "
+                type="image/webp"
+              />
+              <img
+                class="is-rounded"
+                size="(max-width: 768px) 256px, 
+                    350px"
+                srcset="
+                  /kevin_tian_picture-512w.jpg   512w,
+                  /kevin_tian_picture-1024w.jpg 1024w
+                "
+                src="/kevin_tian_picture-512w.jpg"
+                alt="my picture"
+              />
+            </picture>
           </figure>
-        </div> -->
+        </div>
       </div>
     </div>
   </section>
@@ -52,4 +69,9 @@
 <script>
 export default {}
 </script>
-<style lang="scss"></style>
+<style lang="scss" scoped>
+figure.image {
+  max-width: 350px;
+  margin: 0 auto;
+}
+</style>
