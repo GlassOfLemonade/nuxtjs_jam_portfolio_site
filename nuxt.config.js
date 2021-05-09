@@ -91,6 +91,10 @@ export default {
       },
     ],
   ],
+  /**
+   * Nuxt content options
+   */
+  content: [],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
