@@ -1,34 +1,32 @@
 <template>
   <section id="section-work" class="section">
-    <div class="desktop">
-      <div class="content"><h1 class="section-title">Work Experience</h1></div>
-      <div class="columns">
-        <div class="column is-one-quarter">
-          <div class="tabs">
-            <ul>
-              <li
-                v-for="(job, index) in content"
-                :id="'tab-' + index"
-                :key="index"
-                :class="{ active: activeTab === index }"
-                @click="changeTabs(index)"
-              >
-                <a>{{ job.title }}</a>
-              </li>
-            </ul>
-          </div>
+    <div class="content"><h1 class="section-title">Work Experience</h1></div>
+    <div class="columns work--wrapper">
+      <div class="column is-one-quarter">
+        <div class="tabs">
+          <ul>
+            <li
+              v-for="(job, index) in content"
+              :id="'tab-' + index"
+              :key="index"
+              :class="{ active: activeTab === index }"
+              @click="changeTabs(index)"
+            >
+              <a>{{ job.title }}</a>
+            </li>
+          </ul>
         </div>
-        <div class="column">
-          <div
-            v-for="(job, index) in content"
-            :id="'content-' + index"
-            :key="index"
-            class="tab-content content"
-            :class="{ active: activeTab === index }"
-          >
-            <h3 class="section-subtitle">{{ job.title }}</h3>
-            <nuxt-content :document="content[index]" />
-          </div>
+      </div>
+      <div class="column">
+        <div
+          v-for="(job, index) in content"
+          :id="'content-' + index"
+          :key="index"
+          class="tab-content content"
+          :class="{ active: activeTab === index }"
+        >
+          <h3 class="section-subtitle">{{ job.title }}</h3>
+          <nuxt-content :document="content[index]" />
         </div>
       </div>
     </div>
@@ -60,7 +58,17 @@ export default {
 .container {
   max-width: 1040px;
 }
-@media screen and (min-width: 1040px) {
+.tab-content {
+  display: none;
+  &.active {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 769px) {
+  .work--wrapper {
+    min-height: 340px;
+  }
   .tabs {
     ul {
       border: none;
@@ -90,13 +98,6 @@ export default {
           border: none;
         }
       }
-    }
-  }
-  .tab-content {
-    display: none;
-    &.active {
-      display: flex;
-      flex-direction: column;
     }
   }
 }
