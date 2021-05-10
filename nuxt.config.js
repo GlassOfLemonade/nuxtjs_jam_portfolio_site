@@ -3,7 +3,7 @@ export default {
    ** Nuxt rendering mode
    ** See https://nuxtjs.org/api/configuration-mode
    */
-  mode: 'spa',
+  ssr: false,
   /*
    ** Nuxt target
    ** See https://nuxtjs.org/api/configuration-target
@@ -31,7 +31,7 @@ export default {
   /*
    ** Global CSS
    */
-  css: [{ src: '~/assets/styles/main.scss', lang: 'scss' }],
+  // css: [{ src: '~/assets/styles/main.scss', lang: 'scss' }],
   /*
    ** Plugins to load before mounting the App
    ** https://nuxtjs.org/guide/plugins
@@ -41,7 +41,15 @@ export default {
    ** Auto import components
    ** See https://nuxtjs.org/api/configuration-components
    */
-  components: true,
+  components: [
+    {
+      path: '~/components/content-components',
+    },
+    {
+      path: '~/components/reuseable-components',
+      prefix: 'reuse',
+    },
+  ],
   /*
    ** Nuxt.js dev-modules
    */
@@ -62,10 +70,11 @@ export default {
    */
   modules: [
     // Doc: https://github.com/nuxt-community/modules/tree/master/packages/bulma
-    '@nuxtjs/bulma',
+    // '@nuxtjs/bulma',
     // Doc: https://axios.nuxtjs.org/usage
     '@nuxtjs/axios',
     '@nuxtjs/pwa',
+    '@nuxt/content',
     [
       'nuxt-fontawesome',
       {
@@ -82,6 +91,10 @@ export default {
       },
     ],
   ],
+  /**
+   * Nuxt content options
+   */
+  content: [],
   /*
    ** Axios module configuration
    ** See https://axios.nuxtjs.org/options
@@ -98,6 +111,9 @@ export default {
           customProperties: false,
         },
       },
+    },
+    babel: {
+      plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
   },
 }
