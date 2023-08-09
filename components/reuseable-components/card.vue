@@ -11,7 +11,7 @@
           >
             <font-awesome-icon
               :icon="['fas', 'external-link-alt']"
-              style="font-size: 1em;"
+              style="font-size: 1em"
             />
           </a>
           <a
@@ -22,7 +22,7 @@
           >
             <font-awesome-icon
               :icon="['fab', 'github']"
-              style="font-size: 1em;"
+              style="font-size: 1em"
             />
           </a>
         </figure>
@@ -50,31 +50,29 @@ export default {
 }
 </script>
 
-<style lang="scss">
-#section-projects {
-  article.box {
-    div.container {
-      display: flex;
-      padding-bottom: 0.5rem;
-    }
+<style lang="scss" scoped>
+article.box {
+  div.container {
+    display: flex;
+    padding-bottom: 0.5rem;
   }
-  .nuxt-content ul {
-    list-style-type: none;
-    margin-left: 0;
-    li {
-      font-family: monospace;
-      font-size: 0.75rem;
-      color: $link;
-    }
+}
+.nuxt-content ul {
+  list-style-type: none;
+  margin-left: 0;
+  li {
+    font-family: monospace;
+    font-size: 0.75rem;
+    color: $link;
   }
-  figure.image {
-    padding: 0 4px;
-    &:first-child {
-      padding-left: 0;
-    }
-    &:last-child {
-      padding-right: 0;
-    }
+}
+figure.image {
+  padding: 0 4px;
+  &:first-child {
+    padding-left: 0;
+  }
+  &:last-child {
+    padding-right: 0;
   }
 }
 </style>

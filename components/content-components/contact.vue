@@ -16,7 +16,7 @@
             >
               <font-awesome-icon
                 :icon="['fab', 'github']"
-                style="font-size: 2em;"
+                style="font-size: 2em"
               />
             </a>
           </figure>
@@ -30,7 +30,7 @@
             >
               <font-awesome-icon
                 :icon="['fab', 'linkedin']"
-                style="font-size: 2em;"
+                style="font-size: 2em"
               />
             </a>
           </figure>
@@ -40,7 +40,7 @@
             <a href="mailto:ktian0257@gmail.com">
               <font-awesome-icon
                 :icon="['fas', 'envelope-square']"
-                style="font-size: 2em;"
+                style="font-size: 2em"
               />
             </a>
           </figure>

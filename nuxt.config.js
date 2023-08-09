@@ -25,6 +25,22 @@ export default {
           process.env.npm_package_description ||
           "Kevin Tian's personal website",
       },
+      {
+        hid: 'og:title',
+        property: 'og:title',
+        content: process.env.og_title || 'Kevin Tian - Software Engineer',
+      },
+      {
+        hid: 'og:image',
+        property: 'og:image',
+        content:
+          'https://d33wubrfki0l68.cloudfront.net/60988a2bfea10c0008ae6dbf/screenshot_2021-05-10-01-21-52-0000.png',
+      },
+      {
+        hid: 'og:url',
+        property: 'og:url',
+        content: 'https://www.kevintian.dev/',
+      },
     ],
     link: [{ rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }],
   },

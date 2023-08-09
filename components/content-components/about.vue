@@ -5,21 +5,23 @@
       <div class="columns">
         <div class="column is-two-thirds">
           <div class="content">
+            <p>I'm Kevin Tian, a software engineer based in Los Angeles, CA.</p>
             <p>
-              I'm Kevin Tian, a front-end engineer based in Los Angeles, CA.
-            </p>
-            <p>
-              I'm a mostly self taught software developer, and like to challenge
-              myself to new experiences by participating in hackathons and game
-              jams.
+              I'm a mostly self taught software developer, and love to learn
+              about new technologies and work on interesting projects that solve
+              novel problems.
             </p>
             <p>
               On a professional level I create connected applications and
               experiences on the web. With my most recent position at
-              CauseForce, I was given an introduction into the world of web
-              engineering and took opportunities where I could to tackle new
-              problems, work with new technologies, and create connected and
-              personalized web applications.
+              Slickdeals, I expanded my skills as much as I could and sought out
+              and took new challenges where presented. I got a taste of how
+              larger organizations worked and the support and infrastructure it
+              takes to run a website with millions of users, and I worked on
+              amazing projects to push the standards of software engineering. I
+              also got to work on a matured backend codebase and was able to
+              grow as an engineer and tackle problems with a fullstack mindset
+              and solve problems from end to end.
             </p>
             <p>Web technologies I've used:</p>
             <nuxt-content :document="content" />
